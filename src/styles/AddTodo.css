@@ -1,0 +1,48 @@
+#add-todo {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+#add-input {
+    flex: 1 1 0;
+    color: #0c26b8;
+    background-color: #edefed;
+    width: 60vmin;
+    font-weight: 500;
+    outline: none;
+}
+
+#add-input:focus {
+    background-color: #fff;
+    border-color: #1965f1;
+}
+
+#add-input, #add-button {
+    padding: 0.5em 0.8em;
+    margin: 0 0 0.5em;
+    transition: 0.5s;
+    -webkit-transition: 0.5;
+}
+
+#add-button {
+    color: #ffeeff;
+    background-color: #1965f1;
+    cursor: auto;
+    cursor: pointer;
+    border: 0;
+}
+
+.not-active {
+    opacity: 0.5;
+}
+
+.active {
+    opacity: 1;
+}
+
+#add-button:hover.active {
+    color: #121089;
+    background-color: #edefed;
+}

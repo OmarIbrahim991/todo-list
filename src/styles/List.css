@@ -1,0 +1,29 @@
+#app-header {
+    display: flex;
+    justify-content: center;
+}
+
+.header-text {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #121089;
+    margin: 0.25em 1em 1.5em;
+}
+
+
+#todo-list {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+#todo-list ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 500px;
+}
